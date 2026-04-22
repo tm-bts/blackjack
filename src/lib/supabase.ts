@@ -15,4 +15,6 @@ export type Profile = {
   hands_won: number
   last_bonus_at: string | null
   created_at: string
+  is_admin: boolean
+  banned: boolean
 }

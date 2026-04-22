@@ -11,6 +11,9 @@ export function Header() {
         <nav>
           <NavLink to="/" end className={({ isActive }) => (isActive ? 'on' : '')}>Table</NavLink>
           <NavLink to="/leaderboard" className={({ isActive }) => (isActive ? 'on' : '')}>Leaderboard</NavLink>
+          {profile?.is_admin && (
+            <NavLink to="/admin" className={({ isActive }) => (isActive ? 'on' : '')}>Admin</NavLink>
+          )}
         </nav>
       </div>
       <div className="user-row">

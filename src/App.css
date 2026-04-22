@@ -303,6 +303,19 @@ main {
 .leaderboard th { color: var(--text-dim); font-weight: 500; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
 .leaderboard tr.me td { background: rgba(212, 175, 55, 0.08); }
 .leaderboard tr.me td:first-child { border-left: 3px solid var(--gold); }
+.badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.admin-badge { background: rgba(212, 175, 55, 0.2); color: var(--gold); border: 1px solid var(--gold-dim); }
+.ban-badge { background: rgba(239, 68, 68, 0.2); color: var(--err); border: 1px solid rgba(239,68,68,0.4); }
+.admin-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.admin-actions button { padding: 4px 8px; font-size: 12px; }
 
 @media (max-width: 640px) {
   .site-header { padding: 10px 14px; flex-wrap: wrap; gap: 10px; }
