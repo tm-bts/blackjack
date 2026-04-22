@@ -5,7 +5,7 @@ const key = import.meta.env.VITE_SUPABASE_KEY as string
 
 export const supabase = createClient(url, key)
 
-export const SITE_NAME = (import.meta.env.VITE_SITE_NAME as string) || 'Gambling Life'
+export const SITE_NAME = (import.meta.env.VITE_SITE_NAME as string) || 'Blackjack'
 
 export type Profile = {
   id: string
