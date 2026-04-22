@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(mv blackjack-tmp/* blackjack-tmp/.* .)",
+      "Bash(rmdir blackjack-tmp *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npx vite *)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(npm run *)"
+    ]
+  }
+}
